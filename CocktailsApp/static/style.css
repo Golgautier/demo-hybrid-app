@@ -1,0 +1,134 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5722; /* Orange color for headings */
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background: #ff5722; /* Orange color for navigation */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #e64a19; /* Darker shade on hover */
+}
+
+h2 {
+    color: #ff5722; /* Orange color for subheadings */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the recipe list */
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+pre{
+    white-space: pre-wrap;
+}
+
+.recipe-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.33% - 20px); /* Three columns */
+    position: relative;
+}
+
+.recipe-image {
+    width: 100%; /* Make all images the same width */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px;
+}
+
+.recipe-details {
+    margin-top: 10px;
+}
+
+/* Button styles */
+.button {
+    background: #ff5722; /* Orange button */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #e64a19; /* Darker orange on hover */
+}
+
+.delete-button {
+    background: #f44336; /* Red for delete */
+}
+
+.delete-button:hover {
+    background: #e53935;
+}
+
+/* Styles for the add recipe form */
+.recipe-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+h4 {
+    margin-top: 10px;
+    color: #ff5722; /* Orange color for ingredient and description headings */
+}
