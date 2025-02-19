@@ -19,7 +19,7 @@
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE
   `items` (
-  `id` int(11) NOT NULL,
+  `id` bigint(30) NOT NULL,
   `name` varchar(255) NOT NULL,
   `description` text DEFAULT NULL,
   `location` varchar(255) DEFAULT NULL,
