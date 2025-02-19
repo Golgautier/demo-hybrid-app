@@ -9,6 +9,7 @@ Deploy the app on you Nutanix Self-sevice and run it after customization (look a
 ## Add an app
 If you want to add an app to deploy through the BP : 
 - Create a new rep in the repo endig with `App`
+- Your app must run on port 8080
 - Put your app in this folder.
   - A Dockerfile must exist to create the container image
   - A sql folder must contain the sql code to execute to initilize the DB
