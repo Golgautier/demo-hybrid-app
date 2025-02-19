@@ -32,10 +32,10 @@ CREATE TABLE
 -- ------------------------------------------------------------
 
 INSERT INTO `items` (`id`,`name`,`description`,`location`,`quantity`) VALUES
-(2367778432, '4x50 Screw', 'Inox, 100x package', 'B1-S366-R3', 50),
-(2367778823, '5x60 Screw', 'Steel, 200x package', 'B1-S353-R1', 37),
-(2367778423, '3x40 Screw', 'Steel, 500x package', 'B1-S316-R2', 66),
-(2367775632, '4x50 Screw', 'Steel, 200x package', 'B1-S365-R4', 43),
+(2367578432, '4x50 Screw', 'Inox, 100x package', 'B1-S366-R3', 50),
+(2367788823, '5x60 Screw', 'Steel, 200x package', 'B1-S353-R1', 37),
+(2367478423, '3x40 Screw', 'Steel, 500x package', 'B1-S316-R2', 66),
+(2363375632, '4x50 Screw', 'Steel, 200x package', 'B1-S365-R4', 43),
 (2367658432, 'D18 nut', 'Steel, 200x package', 'B1-S135-R4', 43),
 (2367754432, 'D20 nut', 'Steel, 200x package', 'B1-S136-R4', 13),
 (2365478432, 'D24 nut', 'Steel, 200x package', 'B1-S137-R4', 12);
